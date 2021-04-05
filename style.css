@@ -41,6 +41,10 @@ a{
     padding: 1rem;
 }
 
+a:hover{
+    color: #FFFFFF;
+}
+
 .conteudo{
     grid-area: conteudo;
     margin-top: 3.5rem;
@@ -202,4 +206,95 @@ input:hover{
     color: #FFFFFF;
     font-size: 0.875rem;
     line-height: 1.1875rem;
+}
+
+.conteudo-postagem{
+    margin-bottom: 2rem;
+}
+
+.conteudo-postagem p{
+    font-size: 0.875rem;
+    line-height: 1.1875rem;
+    color: #000000;
+}
+
+li{
+    font-size: 0.875rem;
+    line-height: 1.1875rem;
+    color: #000000;
+}
+
+.comentario{
+    display: flex;
+    flex-direction: column;
+}
+
+.nome-email{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+.nome-email input{
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.input-nome{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.input-nome input{
+    cursor: pointer;
+}
+
+.input-nome input:hover{
+    border: 1px solid #FE0078;
+    border-radius: 2px;
+}
+
+.input-email{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-left: 1.5rem;
+}
+
+label{
+    font-size: 0.875rem;
+    line-height: 1.1875rem;
+    color: #000000;
+    padding-bottom: 0.5rem;
+}
+
+.input-comentario{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+}
+
+textarea{
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+textarea:hover{
+    border: 1px solid #FE0078;
+    border-radius: 2px;
+}
+
+.comentario button{
+    background-color: #FE0078;
+    color: #FFFFFF;
+    border-radius: 20px;
+    width: 7.375rem;
+    height: 2.6875rem;
+    margin:3rem 0 4rem 0;
 }
