@@ -39,9 +39,14 @@ a{
     font-size: 0.875rem;
     line-height: 1.1875rem;
     padding: 1rem;
+    color: #000000;
 }
 
-a:hover{
+.conteudo a{
+    color: #545454;
+}
+
+.conteudo a:hover{
     color: #FFFFFF;
 }
 
@@ -116,6 +121,7 @@ button:hover{
 .menu{
     grid-area: menu;
     margin-top: 3.5rem;
+    margin-bottom: 4rem;
 }
 
 .menu-background{
@@ -132,6 +138,7 @@ button:hover{
     border-radius: 10px;
     margin: 1.25rem 0 1.5625rem 1.25rem;
     cursor: pointer;
+    padding-left: 1.25rem;
 
 }
 input:placeholder-shown{
@@ -240,6 +247,7 @@ li{
     border: 1px solid #EEEEEE;
     box-sizing: border-box;
     border-radius: 2px;
+    height: 2rem;
 }
 
 .input-nome{
@@ -297,4 +305,80 @@ textarea:hover{
     width: 7.375rem;
     height: 2.6875rem;
     margin:3rem 0 4rem 0;
+}
+
+.contato{
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.contato h1{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #000000;
+    padding: 1.25rem 0 0 1.5rem;
+}
+
+.contato p{
+    color: #000000;
+    padding-left: 0.25rem;
+}
+
+.informacoes{
+    padding: 0 0 2.5rem 1.5rem;
+}
+
+.informacoes h2{
+    font-size: 1rem;
+    line-height: 1.375rem;
+    font-weight: bold;
+    color: #000000;
+}
+
+.informacoes p{
+    margin: 0;
+}
+
+.informacoes img{
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-bottom: 0.8125rem;
+}
+
+.tag-informacoes{
+    display: flex;
+    padding-top: 1.625rem;
+}
+
+.tag-informacoes p{
+    padding-left: 0.5rem;
+}
+
+.entre-em-contato{
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.input-assunto{
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+}
+
+.input-assunto input{
+    border: 1px solid #EEEEEE;
+    border-radius: 2px;
+    height: 2rem;
+}
+
+.entre-em-contato button{
+    background: #FE0078;
+    border-radius: 20px;
+    color: #FFFFFF;
+    width: 5.8125rem;
+    height: 2.6875rem;
+    margin: 0;
+    margin: 2rem 1.5rem 1.5rem 0
 }
