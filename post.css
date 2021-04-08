@@ -38,6 +38,7 @@ li{
     box-sizing: border-box;
     border-radius: 2px;
     height: 2rem;
+    cursor: pointer;
 }
 
 .input-nome, .input-email{
@@ -46,11 +47,7 @@ li{
     flex-grow: 1;
 }
 
-.input-nome input{
-    cursor: pointer;
-}
-
-.input-nome input:hover{
+.nome-email input:hover{
     border: 1px solid #FE0078;
     border-radius: 2px;
 }
